@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rubik's Cube Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Bar: Navigation -->
+    <div id="top-bar">
+        <div id="nav-left">DURAIRAJ</div>
+        <button id="contact" onclick="window.location.href='#contact-links-section'">Contact</button>
+        <button id="view-resume" onclick="window.location.href='assets/DURAIRESUME.pdf'">📄 View Resume</button>
+
+    </div>
+
+    <!-- Welcome Section -->
+    <section id="welcome-section">
+        <div id="welcome-message">
+            <h1 style="font-family: 'Lobster', cursive, monospace; font-size: 35px; color: #fefbfb; line-height: 1.6;">Welcome to DuraiRaj's Cube of Creativity-Where every twist unlocks a new possibility</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; font-size: 23px; color: #fefbfb; line-height: 1.6;">
+                A Dynamic and goal-oriented individual with a strong ability to adapt and learn in fast-paced environments. Skilled in working under pressure and delivering results independently. A dedicated team player with excellent communication, problem-solving abilities, and a continuous drive for personal and professional growth.
+              </p>              
+        </div>
+    </section>
+
+    <!-- Cube Section -->
+    <section id="cube-section">
+        <div id="cube-container"></div>
+    </section>
+
+    <!-- Contact and Links Section -->
+    <section id="contact-links-section">
+        <div id="links-left">
+            <h3>Let's Connect</h3>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/durai-raj-0a3611258/" target="_blank">
+                    <img src="images/linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <br>
+            </div>
+            <div class="social-icon">
+                <a href="https://github.com/DR-skcet?tab=repositories" target="_blank">
+                    <img src="images/github-icon.png" alt="GitHub">
+                </a>
+                <br>
+            </div>
+            <div class="social-icon">
+                <a href="mailto:idurairaj2002@gmail.com">
+                    <img src="images/email-icon.png" alt="Email">
+                </a>
+                <br>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div id="contact-form-right">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="mailto:durairaj@example.com" method="POST" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Modal Box -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Details</h2>
+            <p id="modal-text">Dynamic Content Will Appear Here</p>
+        </div>
+    </div>
+
+    <!-- Include Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
