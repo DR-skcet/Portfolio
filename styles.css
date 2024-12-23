@@ -402,14 +402,15 @@ body, html {
     margin-bottom: 20px;
     position: relative;
     margin-right: 190px;
+    margin-left: 20px;
   }
   #welcome-message p {
     font-family: 'Courier New', Courier, monospace; 
     font-size: 18px; 
     color: #fefbfb; 
     line-height: 1.6;
-    width: 100%;
-    margin-left: -7px;
+    width: 110%;
+    margin-left: 5px;
   }
   #contact-links-section {
     display: block;
@@ -430,8 +431,8 @@ body, html {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  margin-left: -370px;
-  padding-right: 120px;
+  margin-left: -345px;
+  padding-right: 140px;
   margin-top: -400px;
 }
 #contact-form {
@@ -447,7 +448,7 @@ body, html {
   flex-direction: column;
   align-items: flex-start;
   margin-right: -350px;
-  padding-left: 30px;
+  padding-left: 50px;
   gap: 20px;
   width: 100%;
 }
@@ -483,7 +484,7 @@ body, html {
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-right: 30px;
-  margin-left: 80px;
+  margin-left: 100px;
 }
 #view-resume {
   padding: 8px 15px;
