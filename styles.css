@@ -397,7 +397,7 @@ body, html {
     color: #fefbfb; 
     line-height: 1.6;
     align-self: center;
-    width: 80%;
+    width: 100%;
     margin-top: -250px;
     margin-bottom: 20px;
     position: relative;
@@ -408,8 +408,8 @@ body, html {
     font-size: 18px; 
     color: #fefbfb; 
     line-height: 1.6;
-    width: 90%;
-    margin-left: -17px;
+    width: 100%;
+    margin-left: -7px;
   }
   #contact-links-section {
     display: block;
@@ -430,7 +430,7 @@ body, html {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  margin-left: -400px;
+  margin-left: -370px;
   padding-right: 120px;
   margin-top: -400px;
 }
@@ -447,9 +447,9 @@ body, html {
   flex-direction: column;
   align-items: flex-start;
   margin-right: -350px;
-  padding-left: 0px;
+  padding-left: 30px;
   gap: 20px;
-  width: 55%;
+  width: 100%;
 }
 #links-left h3 {
   color: #ff9900;
@@ -483,7 +483,7 @@ body, html {
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-right: 30px;
-  margin-left: 40px;
+  margin-left: 80px;
 }
 #view-resume {
   padding: 8px 15px;
