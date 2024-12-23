@@ -404,3 +404,4 @@ function animate() {
 // Start the animation
 animateInitialRotation();
 animate();
+
